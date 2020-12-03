@@ -1,0 +1,25 @@
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+
+const AboutScreen2 = () => {
+
+    
+        return(
+          <View style={styles.container}>
+         <Text>EmailScreen2</Text>
+        </View>
+        )
+    }
+
+
+export default AboutScreen2
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
